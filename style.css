@@ -1,0 +1,411 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1170px;
+    margin: 0px auto;
+}
+
+
+
+
+/* header section start */
+.header{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid red; */
+}
+.top_up_header{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.613);
+}
+
+.left_top_up_header{
+    float: left;
+    padding: 12px 0px;
+}
+.left_top_up_header span{
+    width: 80px;
+    height: 80px;
+    color: white;
+}
+.left_top_up_header span,b{
+    color: white;
+    font-size: 17px;
+}
+.right_top_up_header{
+    float: right;
+    padding: 12px 0px;
+}
+.right_top_up_header span{
+    width: 80px;
+    height: 80px;
+    color: white;
+}
+.right_top_up_header span,b{
+    color: white;
+    font-size: 17px;
+}
+
+.top_meno{
+    width: 100%;
+    height:100px ;
+    background-color:white;
+    /* border: 1px solid red; */
+}
+.top_meno_all{
+    display: flex;
+    flex-direction: row;
+
+}
+.top_meno_header{
+    width:20% ;
+    height: 100%;
+    margin: 25px 10px;
+    /* background-color: pink; */
+}
+.top_meno_item{
+    width:55% ;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 35px 30px;
+    /* background-color: rgba(255, 192, 203, 0.435); */
+}
+.top_meno_item li a{
+    padding: 30px 10px;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 20px;
+    color: black;
+}
+.top_meno_item li a:hover{
+    color: rgb(46, 46, 255);
+}
+.social_media{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    margin: 38px 30px;
+}
+.social_media span{
+    font-size: 20px;
+    padding: 0px 5px;
+}
+.social_media a{
+    width: 25px;
+    height: 25px;
+    /* border: 1px solid red; */
+    font-size: 25px;
+    margin-left: 5px;
+    padding: 0px 2px;
+    color:blue;
+    cursor: pointer;
+
+}
+.social_media a:hover{
+    color: rgba(41, 29, 209, 0.647);
+}
+.new_top_meno{
+    margin-top: -50px;
+    position: fixed;
+}
+/* header section end */
+
+
+
+
+
+/* home section start */
+.home_section{
+    width: 100%;
+    height: 650px;
+    background: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home_section_outline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.home_section_outline h1{
+    color: white;
+    margin-top: 100px;
+    font-size: 50px;
+    line-height: 70px;
+}
+.home_section_outline h2{
+    color: white;
+    font-size: 50px;
+}
+.home_section_outline p{
+    width: 680px;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    text-align:center;
+}
+.home_section_outline input{
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin: 50px auto;
+    border: none;
+    background-color: rgba(0, 72, 255, 0.476);
+    color: white;
+}
+.home_section_outline input:hover{
+    background-color: white;
+    color: black;
+}
+/* home section end */
+
+
+
+
+
+
+/* user_section start */
+.user_section{
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid red; */
+}
+.user_section_outline{
+    width: 100%;
+    height:450px ;
+    margin-top: 80px;
+}
+.single_user_section{
+    width: 30%;
+    height: 150px;
+    /* background-color: pink; */
+    margin: 10px 15px;
+    float: left;
+}
+.single_user_section h3{
+    padding: 10px 0px;
+}
+.single_user_section p{
+    color: gray;
+}
+
+/* user_section end */
+
+
+
+
+/* Product_section start */
+.Product_section{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(245, 245, 245);
+}
+.product_heading{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(22, 22, 219);
+}
+.product_section_outline{
+    width: 100%;
+    height:300px ;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.single_product{
+    width: 25%;
+    height:300px;
+    background-color: white;
+    margin: 0px 10px;
+}
+.single_product img{
+    width: 100%;
+    height: 250px;
+}
+.single_text p{
+    padding: 0px 8px;
+    color: gray;
+}
+/* Product_section end */
+
+
+
+
+
+
+/* owner_section start */
+.owner_section{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+}
+.left_owner{
+    width: 55%;
+    height: 600px;
+    float: left;
+}
+.left_owner img{
+    width:100% ;
+    height:400px ;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.right_owner{
+    width: 45%;
+    height: 600px;
+    float: right;
+}
+.right_owner h4{
+    margin:150px 0px 20px 40px;
+    font-weight:100;
+}
+.right_owner h1{
+    width: 380px;
+    color: blue;
+    margin: 10px 40px;
+    font-size: 35px;
+}
+.right_owner p{
+    margin: 20px 40px;
+}
+.right_owner input{
+    padding: 15px 30px;
+    border-radius: 3px;
+    font-size: 16px;
+    border: none;
+    margin: 10px 40px;
+    background-color: rgb(0, 72, 255);
+    color: white;
+}
+.right_owner input:hover{
+    border: 1px solid blue;
+    background: none;
+    color: blue;
+    transition-timing-function: ease-in-out;
+}
+/* owner_section end */
+
+
+
+
+
+/* service_section start */
+.service_section{
+    width: 100%;
+    height:700px ;
+    background-color:rgb(245, 245, 245);
+}
+.top_service_heading{
+    width: 100%;
+    height: 200px;
+}
+.top_service_heading h1{
+    color: blue;
+    font-size: 40px;
+    padding: 30px 0px;
+}
+.top_service_heading p{
+    width: 530px;
+    color: gray;
+}
+.service_outline{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid red; */
+}
+.left_service{
+    width: 70%;
+    height: 400px;
+    float: left;
+}
+.single_service{
+    width: 50%;
+    height: 200px;
+    /* background-color: pink; */
+    float: left;
+}
+.single_service span{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    color: darkblue;
+}
+.single_service h3{
+    padding: 20px 0px;
+}
+.single_service p{
+    color: rgb(77, 74, 74);
+    width: 360px;
+}
+
+.right_service{
+    width: 30%;
+    height:400px;
+    float: right;
+}
+.right_service img{
+    width: 100%;
+    height: 100%;
+}
+/* service_section start */
+
+
+
+
+/* footer_section start */
+.footer_section{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(3, 134, 234);
+}
+.footer_outliner{
+    width: 100%;
+    height: 400px;
+}
+.left_footer{
+    width: 30%;
+    height: 400px;
+    float: left;
+}
+.left_footer h1{
+    padding: 120px 0px 10px 0px;
+    font-size: 40px;
+}
+.left_footer h3,p{
+    color: white;
+    padding: 10px 0px;
+}
+.right_footer{
+    width: 100%;
+    height: 400px;
+    color: white;
+}
+.single_footer{
+    width:23% ;
+    height: 400px;
+    display: flex;
+    float: left;
+    margin: 0px 0px;
+    flex-direction: column;
+}
+.single_footer h3{
+    padding: 120px 20px 10px 30px;
+}
+.single_footer ul{
+    padding:30px 40px;
+    list-style:circle;
+}
